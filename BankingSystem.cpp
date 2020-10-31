@@ -63,7 +63,7 @@ void showAnAccountInfo(Bank obj[], int i)
         cout<<"No account registered in the bank"<<endl<<endl;
         return;
     }
-    long int check,verified;
+    long long int check,verified;
     int index=1,flag=0;
     cout<<"\nEnter Account Number to display the details of the same: ";
     cin>>check;
